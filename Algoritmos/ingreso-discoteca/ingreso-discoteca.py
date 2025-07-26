@@ -11,4 +11,4 @@ permitido = True if edad >= 18 else False #Ternario.
 if permitido:
     print("Puedes ingresar a la discoteca!")
 else: 
-    print("Lo sentimos muicho, no se puede ingresar a la discooteca siendo menor de edad.")
+    print("Lo sentimos mucho, no se puede ingresar a la discooteca siendo menor de edad.")
