@@ -1,0 +1,29 @@
+-------------------------------
+Problematica:
+"La compania estadounidense American MegaDesign esta realizando un nuevo modelo de muebles
+basados en los planos del famoso Disenador industrail italiano Martin Vaccoto pero muchas
+piezas no han encajado correctamente debido a que los planos estan en cms y las maquinarias
+americanas en pulgadas"
+-------------------------------
+
+
+-------------------------------
+Algoritmo:
+1. Solicitar al usuario las medidas de la pieza del mueble en cms.
+2. Convertir las medidas de centimetros a pulgadas.
+3. Mostrar las medidas convertidas en pulgadas al usuario.
+-------------------------------
+
+-------------------------------
+Pseudocodigo:
+
+Inicio
+    # 1. Solicitar al usuario las medidas de la pieza del mueble en cms.
+    Mostar Mensaje: "Por favor, ingresar las medidas de la pieza del mueble (en cms): "
+
+    # 2. Convertir las medidas de centimetros a pulgadas.
+    medida_en_pulgadas = medida_en_cms / 2.54
+
+    # 3. Mostrar las medidas convertidas en pulgadas al usuario.
+    Mostar mensaje: "Las medidas en pulgadas de la pieza ingresada son: ", medida_en_pulgadas.
+Fin.
